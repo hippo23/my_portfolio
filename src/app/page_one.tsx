@@ -129,11 +129,11 @@ const PageThree = () => {
       <div className="h-[80%] w-[70%] gap-1 grid grid-cols-1 grid-rows-3">
         <div className="m-2 transition-all hover:m-0 hover:ease-in-out group z-10 bg-cover bg-[url('/photography.jpg')] bg-center row-span-1 rounded-md">
           <div className=" p-7 transition-all rounded-md flex flex-col h-full w-full hover:backdrop-blur-sm ease-in-out hover:backdrop-brightness-50">
-            <h1 className="invisible transition ease-in-out translate-x-[-100%] group-hover:translate-x-[0%] blur-sm group-hover:blur-none group-hover:visible text-white font-bold text-3xl pb-3">
+            <h1 className="invisible transition ease-in-out translate-x-[-100%] group-hover:translate-x-[0%] blur-sm group-hover:blur-none group-hover:visible text-white font-bold text-2xl lg:text-3xl pb-3">
               My <span className="italic">Photography</span>
             </h1>
-            <hr className="h-px my-8 bg-gray-400 border-0 w-0 transition-all ease-in-out hover:ease-in-out group-hover:w-full" />
-            <p className="translate-y-[10vh] opacity-0 text-white group-hover:opacity-100 filter blur-[5px] group-hover:translate-y-[0%] group-hover:blur-none transition-all ease-in-out text-xl">
+            <hr className="h-px my-4 lg:my-8 bg-gray-400 border-0 w-0 transition-all ease-in-out hover:ease-in-out group-hover:w-full" />
+            <p className="translate-y-[10vh] opacity-0 text-white group-hover:opacity-100 filter blur-[5px] group-hover:translate-y-[0%] group-hover:blur-none transition-all ease-in-out text-md lg:text-xl">
               I do photography part-time, and I've taken stills and cinematic
               videos of the various places I've visited over the years. It's one
               of my most valuable outputs, and you can see the collection of my
@@ -146,11 +146,11 @@ const PageThree = () => {
         </div>
         <div className="m-2 transition-all hover:m-0 hover:ease-in-out group z-10 bg-cover bg-[url('/photography.jpg')] bg-center row-span-1 rounded-md">
           <div className=" p-7 transition-all rounded-md flex flex-col h-full w-full hover:backdrop-blur-sm ease-in-out hover:backdrop-brightness-50">
-            <h1 className="invisible transition ease-in-out translate-x-[-100%] group-hover:translate-x-[0%] blur-sm group-hover:blur-none group-hover:visible text-white font-bold text-3xl pb-3">
+            <h1 className="invisible transition ease-in-out translate-x-[-100%] group-hover:translate-x-[0%] blur-sm group-hover:blur-none group-hover:visible text-white font-bold text-2xl lg:text-3xl pb-3">
               My <span className="italic">Projects</span>
             </h1>
-            <hr className="h-px my-8 bg-gray-400 border-0 w-0 transition-all ease-in-out hover:ease-in-out group-hover:w-full" />
-            <p className="translate-y-[10vh] opacity-0 text-white group-hover:opacity-100 filter blur-[5px] group-hover:translate-y-[0%] group-hover:blur-none transition-all ease-in-out text-xl">
+            <hr className="h-px my-4 lg:my-8 bg-gray-400 border-0 w-0 transition-all ease-in-out hover:ease-in-out group-hover:w-full" />
+            <p className="translate-y-[10vh] opacity-0 text-white group-hover:opacity-100 filter blur-[5px] group-hover:translate-y-[0%] group-hover:blur-none transition-all ease-in-out text-md lg:text-xl">
               Since my senior year in highschool, I've made various coding
               projects for both the front-end and back-end, studying algorithms
               for my college curriculum as well as other branches of coding at
@@ -163,11 +163,11 @@ const PageThree = () => {
         </div>
         <div className="m-2 transition-all hover:m-0 hover:ease-in-out group z-10 bg-cover bg-[url('/photography.jpg')] bg-center row-span-1 rounded-md">
           <div className=" p-7 transition-all rounded-md flex flex-col h-full w-full hover:backdrop-blur-sm ease-in-out hover:backdrop-brightness-50">
-            <h1 className="invisible transition ease-in-out translate-x-[-100%] group-hover:translate-x-[0%] blur-sm group-hover:blur-none group-hover:visible text-white font-bold text-3xl pb-3">
+            <h1 className="invisible transition ease-in-out translate-x-[-100%] group-hover:translate-x-[0%] blur-sm group-hover:blur-none group-hover:visible text-white font-bold text-2xl lg:text-3xl pb-3">
               My <span className="italic">Writing</span>
             </h1>
-            <hr className="h-px my-8 bg-gray-400 border-0 w-0 transition-all ease-in-out hover:ease-in-out group-hover:w-full" />
-            <p className="translate-y-[10vh] opacity-0 text-white group-hover:opacity-100 filter blur-[5px] group-hover:translate-y-[0%] group-hover:blur-none transition-all ease-in-out text-xl">
+            <hr className="h-px my-4 lg:my-8 bg-gray-400 border-0 w-0 transition-all ease-in-out hover:ease-in-out group-hover:w-full" />
+            <p className="translate-y-[10vh] opacity-0 text-white group-hover:opacity-100 filter blur-[5px] group-hover:translate-y-[0%] group-hover:blur-none transition-all ease-in-out text-md lg:text-xl">
               I write recreationally, dabbling in all sorts of literary fiction
               from high-fantasy to low-brow-you-know-what. Here you will find a
               catalogue of the books I have read, am reading, and plan to read,
