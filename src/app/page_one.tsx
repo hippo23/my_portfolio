@@ -27,7 +27,7 @@ const PageOne = () => {
         className="h-[50%] max-w-[60%] flex flex-col items-center justify-center"
       >
         <p className="text-white text-3xl">
-          Hello there! I'm Simon, a college student from the Philippines. I
+          Hello there! I&apos;m Simon, a college student from the Philippines. I
           study Computer Science, but can also be considered a hopeless
           creative.
         </p>
@@ -60,7 +60,6 @@ const PageTwo = () => {
     <div className="overflow-hidden grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 h-[70vh] bg-white w-full">
       <div className="overflow-hidden bg-inherit w-full h-full col-span-1 row-span-2">
         <Canvas
-          ref={camera}
           shadows
           className="bg-inherit"
           camera={{
@@ -134,10 +133,10 @@ const PageThree = () => {
             </h1>
             <hr className="h-px my-4 lg:my-8 bg-gray-400 border-0 w-0 transition-all ease-in-out hover:ease-in-out group-hover:w-full" />
             <p className="translate-y-[10vh] opacity-0 text-white group-hover:opacity-100 filter blur-[5px] group-hover:translate-y-[0%] group-hover:blur-none transition-all ease-in-out text-md lg:text-xl">
-              I do photography part-time, and I've taken stills and cinematic
-              videos of the various places I've visited over the years. It's one
-              of my most valuable outputs, and you can see the collection of my
-              works here.
+              I do photography part-time, and I&apos;ve taken stills and
+              cinematic videos of the various places I have bene lucky enough to
+              visit over the years. It&apos;s one of my most valuable outputs,
+              and you can see the collection of my works here.
             </p>
             <button className="translate-y-[10vh] opacity-0 filter blur-[5px] transition-all ease-in-out hover:ease-in-out group-hover:opacity-100 group-hover:translate-y-[0%] group-hover:blur-none mt-auto h-[10px] w-[130px] flex items-center justify-center justify-self-end font-bold rounded-md bg-white p-5 text-black text-md">
               Learn More
@@ -151,7 +150,7 @@ const PageThree = () => {
             </h1>
             <hr className="h-px my-4 lg:my-8 bg-gray-400 border-0 w-0 transition-all ease-in-out hover:ease-in-out group-hover:w-full" />
             <p className="translate-y-[10vh] opacity-0 text-white group-hover:opacity-100 filter blur-[5px] group-hover:translate-y-[0%] group-hover:blur-none transition-all ease-in-out text-md lg:text-xl">
-              Since my senior year in highschool, I've made various coding
+              Since my senior year in highschool, I&apos;ve made various coding
               projects for both the front-end and back-end, studying algorithms
               for my college curriculum as well as other branches of coding at
               my own leisure.
