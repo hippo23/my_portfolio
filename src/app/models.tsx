@@ -9,6 +9,7 @@ export function Camera(props: {}) {
         <mesh
           castShadow
           receiveShadow
+          //@ts-ignore
           geometry={nodes["Mesh_(3)_palette_0"].geometry}
           material={materials.palette}
           position={[-600, 400, -600]}
@@ -18,6 +19,7 @@ export function Camera(props: {}) {
         <mesh
           castShadow
           receiveShadow
+          //@ts-ignore
           geometry={nodes["Mesh_(4)_palette_0"].geometry}
           material={materials.palette}
           rotation={[0, Math.PI / 2, 0]}
@@ -26,6 +28,7 @@ export function Camera(props: {}) {
       <mesh
         castShadow
         receiveShadow
+        //@ts-ignore
         geometry={nodes.Cube_umi_0.geometry}
         material={materials.material}
         scale={10}
@@ -33,12 +36,14 @@ export function Camera(props: {}) {
       <mesh
         castShadow
         receiveShadow
+        //@ts-ignore
         geometry={nodes["Mesh_(2)_palette_0"].geometry}
         material={materials.palette}
       />
       <mesh
         castShadow
         receiveShadow
+        //@ts-ignore
         geometry={nodes["Mesh_(5)_palette_0"].geometry}
         material={materials.palette}
         position={[145, 150, 310]}
@@ -46,6 +51,7 @@ export function Camera(props: {}) {
       <mesh
         castShadow
         receiveShadow
+        //@ts-ignore
         geometry={nodes["Mesh_(6)_palette_0"].geometry}
         material={materials.palette}
         position={[145, 150, 310]}
@@ -53,12 +59,14 @@ export function Camera(props: {}) {
       <mesh
         castShadow
         receiveShadow
+        //@ts-ignore
         geometry={nodes["Mesh_(7)_palette_0"].geometry}
         material={materials.palette}
       />
       <mesh
         castShadow
         receiveShadow
+        //@ts-ignore
         geometry={nodes["Mesh_(8)_palette_0"].geometry}
         material={materials.palette}
         position={[-4000, 0, -10050]}
@@ -67,6 +75,7 @@ export function Camera(props: {}) {
       <mesh
         castShadow
         receiveShadow
+        //@ts-ignore
         geometry={nodes["Mesh_(9)_palette_0"].geometry}
         material={materials.palette}
         position={[-2435, 1710, -10770]}
@@ -74,6 +83,7 @@ export function Camera(props: {}) {
       <mesh
         castShadow
         receiveShadow
+        //@ts-ignore
         geometry={nodes["Mesh_(10)_palette_0"].geometry}
         material={materials.palette}
         position={[6700, 8560, -2500]}
@@ -82,6 +92,7 @@ export function Camera(props: {}) {
       <mesh
         castShadow
         receiveShadow
+        //@ts-ignore
         geometry={nodes["Mesh_(11)_palette_0"].geometry}
         material={materials.palette}
         position={[10040, 0, 4260]}
@@ -90,6 +101,7 @@ export function Camera(props: {}) {
       <mesh
         castShadow
         receiveShadow
+        //@ts-ignore
         geometry={nodes["Mesh_(12)_palette_0"].geometry}
         material={materials.palette}
         position={[9500, 2800, 4180]}
@@ -97,6 +109,7 @@ export function Camera(props: {}) {
       <mesh
         castShadow
         receiveShadow
+        //@ts-ignore
         geometry={nodes["Mesh_(13)_palette_0"].geometry}
         material={materials.palette}
         position={[7040, 5760, -4420]}
@@ -104,6 +117,7 @@ export function Camera(props: {}) {
       <mesh
         castShadow
         receiveShadow
+        //@ts-ignore
         geometry={nodes["Mesh_(14)_palette_0"].geometry}
         material={materials.palette}
         position={[6940, 3260, -3570]}
